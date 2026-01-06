@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>How to OCR Hard Scanned PDFs (When Normal OCR Fails)</title>
+
+  <meta name="description" content="Learn why normal OCR fails on hard-scanned PDFs and how to correctly extract text from poor-quality scans, textbooks, and accounting books.">
+  <meta name="keywords" content="OCR hard scanned pdf, OCR poor quality scan, OCR textbook PDF, OCR accounting book">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      background: #020617;
+      color: #e5e7eb;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: auto;
+      padding: 60px 24px;
+    }
+
+    h1 {
+      font-size: 38px;
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      margin-top: 50px;
+      font-size: 26px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.7;
+      color: #d1d5db;
+    }
+
+    ul {
+      font-size: 18px;
+      line-height: 1.7;
+      margin-top: 12px;
+    }
+
+    .box {
+      border: 1px solid #1e293b;
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 24px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 26px;
+      background: #22c55e;
+      color: #000;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    .btn.secondary {
+      background: #3b82f6;
+      color: #fff;
+      margin-left: 12px;
+    }
+
+    footer {
+      margin-top: 80px;
+      padding-top: 30px;
+      border-top: 1px solid #1e293b;
+      font-size: 14px;
+      color: #9ca3af;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>How to OCR Hard-Scanned PDFs (When Normal OCR Fails)</h1>
+
+    <p>
+      If you have ever tried to copy text from a scanned PDF and failed,
+      you are not alone. Many PDFs — especially textbooks, accounting books,
+      and old documents — are <strong>hard-scanned</strong>.
+    </p>
+
+    <h2>What is a hard-scanned PDF?</h2>
+    <p>
+      A hard-scanned PDF is essentially a collection of images.
+      There is no real text layer inside the file.
+      This makes normal OCR tools struggle or fail completely.
+    </p>
+
+    <h2>Why normal OCR fails</h2>
+    <ul>
+      <li>Low-resolution or blurry scans</li>
+      <li>Skewed or faded pages</li>
+      <li>Tables, boxes, and complex layouts</li>
+      <li>Textbooks and accounting materials</li>
+    </ul>
+
+    <div class="box">
+      <p>
+        Most OCR tools are optimized for clean documents.
+        When the scan quality is poor, they produce garbled text or nothing at all.
+      </p>
+    </div>
+
+    <h2>How to correctly OCR hard-scanned PDFs</h2>
+    <p>
+      Hard-scanned PDFs require a more aggressive OCR approach:
+    </p>
+
+    <ul>
+      <li>High-resolution page rendering</li>
+      <li>Better image preprocessing</li>
+      <li>OCR settings tuned for difficult layouts</li>
+      <li>Multiple passes instead of a single OCR attempt</li>
+    </ul>
+
+    <h2>Using AdvancedPDFOCR</h2>
+    <p>
+      AdvancedPDFOCR is a Windows desktop tool designed specifically for
+      hard-scanned PDFs where normal OCR fails.
+    </p>
+
+    <ul>
+      <li>Free mode for basic scanned PDFs</li>
+      <li>Pro mode for aggressive OCR on difficult scans</li>
+      <li>Batch processing for multiple PDFs</li>
+      <li>Runs completely offline — no uploads</li>
+    </ul>
+
+    <a class="btn"
+       href="https://github.com/roshanroytk-ui/advancedpdfocr.github.io/releases/download/v1.0/AdvancedPDFOCR_Setup.exe">
+      Download Free App
+    </a>
+
+    <a class="btn secondary"
+       href="https://advancedpdfocr.gumroad.com/l/vnncoi"
+       target="_blank">
+      Buy Pro License
+    </a>
+
+    <footer>
+      <p>
+        © 2026 AdvancedPDFOCR<br>
+        Desktop OCR software for Windows
+      </p>
+    </footer>
+
+  </div>
+</body>
+</html>
