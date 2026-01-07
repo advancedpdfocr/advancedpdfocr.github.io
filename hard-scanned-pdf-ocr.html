@@ -68,6 +68,20 @@
       margin-left: 12px;
     }
 
+    .faq {
+      margin-top: 50px;
+    }
+
+    .faq h3 {
+      margin-top: 20px;
+      font-size: 18px;
+    }
+
+    .faq p {
+      margin-top: 6px;
+      line-height: 1.6;
+    }
+
     footer {
       margin-top: 80px;
       padding-top: 30px;
@@ -156,6 +170,41 @@
       <p>Results after Advanced OCR.</p>
     </div>
     
+    <section class="faq">
+      <h2>Frequently Asked Questions</h2>
+
+      <h3>Why does OCR fail on hard-scanned PDFs?</h3>
+      <p>
+        Standard OCR tools fail because hard-scanned PDFs often have low resolution,
+        skewed text, uneven lighting, background noise, or embedded diagrams.
+        These factors confuse normal OCR engines.
+      </p>
+
+      <h3>How is AdvancedPDFOCR different from normal OCR tools?</h3>
+      <p>
+        AdvancedPDFOCR uses aggressive preprocessing, image enhancement,
+        and layout-aware OCR techniques designed specifically for scanned textbooks,
+        accounting books, and poor-quality scans.
+      </p>
+
+      <h3>Can this tool extract text from PDFs with tables and diagrams?</h3>
+      <p>
+        Yes. Pro mode is optimized to handle PDFs containing tables, boxes,
+        and diagram-heavy layouts where standard OCR tools usually fail.
+      </p>
+
+      <h3>Is AdvancedPDFOCR free to use?</h3>
+      <p>
+        The free version supports normal OCR.
+        Pro mode unlocks aggressive OCR and batch processing for multiple PDFs.
+      </p>
+
+      <h3>Which operating system is supported?</h3>
+      <p>
+        Currently, AdvancedPDFOCR is available for Windows.
+      </p>
+    </section>
+
     <ul>
       <li>Free mode for basic scanned PDFs</li>
       <li>Pro mode for aggressive OCR on difficult scans</li>
